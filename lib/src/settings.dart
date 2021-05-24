@@ -54,7 +54,7 @@ const double maxAngularCorrection = 8.0 / 180.0 * pi;
 
 /// The maximum linear velocity of a body. This limit is very large and is used to prevent
 /// numerical problems. You shouldn't need to adjust this.
-const double maxTranslation = 10.0;
+const double maxTranslation = 100.0;
 const double maxTranslationSquared = maxTranslation * maxTranslation;
 
 /// The maximum angular velocity of a body. This limit is very large and is used to prevent
